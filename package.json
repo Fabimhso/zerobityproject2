@@ -1,0 +1,31 @@
+{
+  "name": "zerobity",
+  "version": "1.0.0",
+  "description": "EAD Platform",
+  "main": "Src/Server.js",
+  "repository": "https://github.com/viniciustlima/zerobity.git",
+  "author": "viniciustlima <vinitlima2007.14@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "server:prod": "node .",
+    "server:dev": "nodemon .",
+    "build-doc": "jsdoc -c jsdoc.json"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "date-and-time": "^2.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.2"
+  }
+}

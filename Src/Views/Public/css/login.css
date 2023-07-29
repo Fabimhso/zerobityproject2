@@ -1,0 +1,81 @@
+@import "./global.css";
+
+.login {
+  padding: 40px 100px;
+}
+
+.login .login__title-main {
+  font-size: 28px;
+  font-weight: 400;
+  color: #2b2b2b;
+}
+
+.login .login__title-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2b2b2b;
+}
+
+.login .login__form {
+  /* padding: 20px 0; */
+  width: 100%;
+  max-width: 350px;
+}
+
+.login .login__form .login__form-group {
+  width: 100%;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.login .login__form .login__form-group .login__form-group-input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #c4c4c4;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #2b2b2b;
+}
+
+.login .login__form .login__form-group .login__form-group-button {
+  width: 100%;
+  height: 50px;
+  background-color: #1a91da;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .15s;
+}
+
+.login .login__form .login__form-group .login__form-group-button:hover {
+  background-color: #1380c4;
+}
+
+.login .login__form-login-methods {
+  width: 100%;
+  max-width: 330px;
+  padding: 20px 0;
+}
+
+.login .login__form-login-methods .login__form-login-methods-title {
+  font-size: 26px;
+  font-weight: 300;
+  color: #2b2b2b;
+}
+
+.login .login__form-login-methods .login__form-login-option {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #ccc;
+  transition: .15s;
+}
+
+.login .login__form-login-methods .login__form-login-option:hover {
+  border: 2px solid #c4c4c4;
+  box-shadow: 3px 3px 2px #ccc;
+}
